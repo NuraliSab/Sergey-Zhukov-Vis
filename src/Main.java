@@ -100,7 +100,7 @@ public class Main {
         while (countOfMistakes < 5){
             printCurrentStateOfWord();
 
-            String typedLetter = getInputLetter();
+            char typedLetter = getInputLetter();
 
             checkingStateOfWord(typedLetter, wordSegment);
 
