@@ -28,7 +28,7 @@ public class Main {
 //        }
     }
 
-    public static String generateWord() {
+    public static String pickWordFromFile() {
         String randomWord;
         ArrayList<String> words;
         try {
