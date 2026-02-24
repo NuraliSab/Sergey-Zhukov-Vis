@@ -96,7 +96,7 @@ public class Main {
     }
 
 
-    public static void gameloop(ArrayList<String> wordSegment){
+    public static void gameloop(char[] wordSegment){
         while (countOfMistakes < 5){
             printCurrentStateOfWord();
 
