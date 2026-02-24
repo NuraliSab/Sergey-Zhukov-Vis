@@ -60,7 +60,7 @@ public class Main {
     }
 
 
-    public static boolean ifStart(){
+    public static OptionsToStart choosesOptionAndStart(){
         System.out.println("[N]ew game or [E]xit");
         String start = inp.nextLine().toLowerCase();
 
