@@ -173,7 +173,12 @@ public class Main {
 
 
     public static boolean isWordGuessed(){
-        return !Arrays.asList(closedLetters).contains("#");
+        for (char letter: closedLetters){
+            if (letter == '#') {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void printCurrentStateOfWord(){
