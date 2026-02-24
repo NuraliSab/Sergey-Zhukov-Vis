@@ -22,7 +22,7 @@ public class Main {
 
 
     public static void Start(){
-        while(ifStart()){
+//        while(choosesOptionAndStart()){
             resetGame();
             gameloop(wordToCharArray());
 //        }
