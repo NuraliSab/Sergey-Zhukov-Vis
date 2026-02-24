@@ -17,6 +17,8 @@ public class Main {
 
     private static HashSet<String> usedLetters = new HashSet<>();
     private static HashSet<String> uniqueLetters = new HashSet<>();
+
+
     static int countOfGuessedLetters = 0;
     static int countOfMistakes = 0;
     static String[] closedLetters;
