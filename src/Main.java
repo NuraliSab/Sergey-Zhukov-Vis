@@ -12,7 +12,7 @@ public class Main {
     }
 
     static String randomWord;
-    private static Scanner inp = new Scanner(System.in);
+    private static final Scanner inp = new Scanner(System.in);
     private static HashSet<Character> usedLetters = new HashSet<>();
 
 
