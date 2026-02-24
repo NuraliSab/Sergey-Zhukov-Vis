@@ -64,9 +64,16 @@ public class Main {
         System.out.println("[N]ew game or [E]xit");
         String start = inp.nextLine().toLowerCase();
 
-        while(!(start.equals("n")) && !start.equals("e")){
-            System.out.println("Write n or e");
-            start = inp.nextLine();
+            switch(start){
+                case "n":
+                    return OptionsToStart.NEW_GAME;
+                case "e":
+                    return OptionsToStart.EXIT;
+
+                default:
+                    System.out.println("Write n or e");
+                    break;
+            }
 
         }
         if (start.equals("n")){
