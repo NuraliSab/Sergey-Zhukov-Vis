@@ -24,11 +24,8 @@ public class Main {
     public static void Start(){
         while(ifStart()){
             resetGame();
-            ArrayList<String> wordSegment = wordSegment();
-
-
-            gameloop(wordSegment);
-        }
+            gameloop(wordToCharArray());
+//        }
     }
 
     public static String generateWord() {
