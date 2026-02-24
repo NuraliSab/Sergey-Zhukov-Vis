@@ -13,10 +13,7 @@ public class Main {
 
     static String randomWord;
     private static Scanner inp = new Scanner(System.in);
-
-
-    private static HashSet<String> usedLetters = new HashSet<>();
-    private static HashSet<String> uniqueLetters = new HashSet<>();
+    private static HashSet<Character> usedLetters = new HashSet<>();
 
 
     static int countOfGuessedLetters = 0;
